@@ -1,0 +1,17 @@
+package com.ihcl.order.utils
+
+const val CLIENT_UNAVAILABLE_ERR_MSG="client is unavailable"
+const val SOMETHING_WENT_WRONG_ERR_MSG="Something went wrong"
+const val SERIALIZE_ERR_MSG="Unable to serialize client response"
+const val INVALID_REQUEST_STRUCTURE_ERR_MSG="Invalid request structure"
+const val NOT_ENOUGH_INVENTORY_ERR_MSG = "Not enough product available"
+const val GREATER_THAN_MAX_QUANTITY_ERR_MSG = "Requested quantity is greater than max quantity"
+const val ROOM_ID_NOT_MATCHING_ERR_MSG = "RoomID is not present in cart"
+const val ORDER_ID_REQUIRED_ERR_MSG = "OrderId is required"
+const val CUSTOMERHASH_REQUIRED_ERR_MSG = "CustomerHash is required"
+const val ITEMS_QUANTITY_MISMATCH_ERR_MSG = "Items Quantity Mismatch while removing items"
+const val SKU_NOT_MATCHED_ERR_MSG = "SKU ID Not Matched"
+const val CART_NOT_FOUND_ERR_MSG = "Cart Not Found"
+const val INVALID_CATEGORY_ERR_MSG = "Invalid Category"
+const val INVALID_PIN_CODE_ERR_MSG ="Invalid Pincode"
+const val CART_ID_with_ROOMID_NOT_MATCHED_ERR_MSG = "CART ID with ROOM ID Not Matched"
